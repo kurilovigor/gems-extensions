@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gems.Data.Extensions", "src\Gems.Data.Extensions\Gems.Data.Extensions.csproj", "{B9972900-3C8D-4366-A44D-E6A9C6FB9CE1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gems.Extensions.Test", "tests\Gems.Extensions.Test\Gems.Extensions.Test.csproj", "{9393D1CB-B712-4012-93D6-BDCF6FCDE158}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gems.Extensions", "src\Gems.Extensions\Gems.Extensions.csproj", "{A5F9D988-3D91-4D2E-9399-92ACA8BBE1DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{A501BD1A-7A0A-4277-9433-E4A2F6ABEF1F}"
+	ProjectSection(SolutionItems) = preProject
+		docs\data-extensions.md = docs\data-extensions.md
+		docs\extensions.md = docs\extensions.md
+		docs\repository-generator.md = docs\repository-generator.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9972900-3C8D-4366-A44D-E6A9C6FB9CE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9972900-3C8D-4366-A44D-E6A9C6FB9CE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9972900-3C8D-4366-A44D-E6A9C6FB9CE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9972900-3C8D-4366-A44D-E6A9C6FB9CE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9393D1CB-B712-4012-93D6-BDCF6FCDE158}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9393D1CB-B712-4012-93D6-BDCF6FCDE158}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9393D1CB-B712-4012-93D6-BDCF6FCDE158}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9393D1CB-B712-4012-93D6-BDCF6FCDE158}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5F9D988-3D91-4D2E-9399-92ACA8BBE1DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5F9D988-3D91-4D2E-9399-92ACA8BBE1DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5F9D988-3D91-4D2E-9399-92ACA8BBE1DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5F9D988-3D91-4D2E-9399-92ACA8BBE1DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6AA1661D-35DC-4CB5-A87A-0FC425A0F912}
+	EndGlobalSection
+EndGlobal
