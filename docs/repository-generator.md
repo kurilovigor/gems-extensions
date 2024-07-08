@@ -18,7 +18,7 @@ public interface ISettingsRepository
 ```csharp
 var settings = await unitOfWorkProvider
     .Repository<ISettingsRepository>(cancellationToken)
-    .GetSettingsAssync(filter);
+    .GetSettingsByFilterAsync(filter);
 
 ```
 
